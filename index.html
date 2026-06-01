@@ -1,16 +1,17 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Explicação sobre Links</title>
-  <style>
-    body {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex links</title>
+    <style>body {
       font-family: Arial, sans-serif;
       background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
-      margin: 0;
-      padding: 0;
+      margin: 50px;
+      padding: 20px;
       color: #333;
+      text-align: left;
     }
     header {
       background-color: #4a90e2;
@@ -57,28 +58,36 @@
       line-height: 1.6;
       text-align: justify;
     }
-  </style>
+    </style>
+    <h3>Página 1</h3><br>
 </head>
 <body>
-  <header>
-    <h1>Aprendendo sobre Links</h1>
-  </header>
+    <h1>introdução ao MVC</h1>
+     <P>O padrão <strong>MVC (model-view-controler)</strong> é uma arquitetura de softwere utilizada no desenvolvimento de aplicações<br> para separar a lógica de négocios , a interface do usuario e o controle dos dados . </P>
+     <p><h2><strong>Componentes do MVC</strong></h2></p>
 
-  <div class="conteudo">
+     <ul>
+        <li><strong>Model (modelo)</strong>- representa os dados e a lógica de negócios da aplicação .</li>
+        <li><strong>View (Visão)</strong>- Responsável pela interface com o usuário e exibição dos dados.</li>
+        <li><strong>Controller (Controlador)</strong>- intermedia a comunicação entre model e View</li>
+     </ul>
+    <p><strong>Navegação</strong></p>
+
     <p>
-      Nesta página vamos aprender sobre links. Links são elementos clicáveis que levam você a outras páginas, arquivos ou recursos.
-      Abaixo temos três tipos de links diferentes para você explorar e, no final, um link para o exercício.
+        <ul>
+            <li><a href="pag002.html">ir para a Página 2- explicação do model</a></li>
+            <li><a href="pag003.html">ir para a Página 3- explicação do View e controller</a></li>
+        </ul>
     </p>
 
-    <div class="links">
-        <a href="links-externo.html" target="janela">Links Externos</a>
-        <a href="links-internos.html" target="janela">Links Internos</a>
-        <a href="links-download.html" target="janela">Links de Download</a>
-      <!-- Novo link para o exercício -->
-      <a href="exercicio-links.pdf" target="janela">Exercício sobre Links</a>
-    </div>
 
-    <iframe name="janela" src="" title="Conteúdo dos links"></iframe>
-  </div>
+    <p><strong>link externo</strong></p>
+    <p><a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="external">saiba mais sobre MVC no MDN</a></p>
+
+    <p><strong>Downloads</strong></p>
+    <a href="MVC.PDF/" type="application/PDF" download="MVC.PDF">Baixar material sobre MVC</a><br>
+    <a href="MVC.zip/" type="application/zip" download="MVC.zip">Baixar material sobre MVC</a>
 </body>
 </html>
+index.html
+Displaying index.html.
